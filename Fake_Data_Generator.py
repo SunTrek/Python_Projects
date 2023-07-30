@@ -2,7 +2,9 @@
 
 
 from faker import Faker
+
 fake = Faker()
+
 name = fake.name()
 address = fake.address()
 phone_number = fake.phone_number()
